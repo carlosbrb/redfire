@@ -1,3 +1,9 @@
 # English strings go here for Rails i18n
 en:
-  # my_label: "My label"
+  permission_notifications: "View/Edit Campfire Notifications Configuration"
+  notifications: "Campfire Notifications" 
+  campfire_notifications_title: "Campfire Notifications Configuration"
+  label_token: "Campfire Api Token"
+  label_room: "Room Name"
+  label_subdomain: "Subdomain (subdomain.campfire.com)"
+  success_config_save: "Configuration Saved"
