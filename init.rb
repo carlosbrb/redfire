@@ -1,8 +1,8 @@
 Redmine::Plugin.register :redfire do
-  name 'Redfire plugin'
-  author 'Author name'
-  description 'This is a plugin for Redmine'
+  name 'Redfire'
+  author 'Carlos Barbiero'
+  description 'Redmine plugin for awesome campfire notifications'
   version '0.0.1'
-  url 'http://example.com/path/to/plugin'
-  author_url 'http://example.com/about'
+  url 'https://github.com/carlosbrb/redfire'
+  author_url 'https://github.com/carlosbrb'
 end
