@@ -1,0 +1,19 @@
+<h2><%= l(:campfire_notifications_title)%></h2>
+<%= form_for @config, :url => notifications_path, :method => :put do |f|%>
+  <div class="box tabular">
+    <p>
+      <label for="notification_config_token"><%= l(:label_token) %></label>
+      <%= f.text_field :token %>
+    </p>
+    <p>
+      <label for="notification_config_room"><%= l(:label_room) %></label>
+      <%= f.text_field :room %>
+    </p>
+    <p>
+      <label for="notification_config_subdomain"><%= l(:label_subdomain) %></label>
+      <%= f.text_field :subdomain %>
+    </p>
+  </div>
+  <%= f.hidden_field :project_id %>
+  <%= submit_tag l(:button_save) %>
+<% end %>
