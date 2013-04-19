@@ -1,0 +1,8 @@
+es:
+  permission_notifications: "Ver/Editar la configuracion de Campfire"
+  notifications: "Notificationes de Campfire" 
+  campfire_notifications_title: "Configuración de Notificationes de Campfire"
+  label_token: "Token del API de Campfire"
+  label_room: "Nombre de la Sala"
+  label_subdomain: "Subdominio (subdominio.campfire.com)"
+  success_config_save: "Configuración guardada"
