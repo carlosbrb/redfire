@@ -1,3 +1,0 @@
-= Redfire
-
-A Redmine plugin for awesome campfire notifications
