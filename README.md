@@ -34,3 +34,4 @@ ToDo
 - Add hooks for Wiki
 - Add tests
 - Add a notification test 
+- Error logging and validate configureation
