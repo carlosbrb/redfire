@@ -38,7 +38,7 @@ class Hooks < Redmine::Hook::ViewListener
         room = campfire.find_room_by_name(config.room)
         room.speak message
       rescue => e
-        logger.error "Error when trying to talk: #{e.message}"
+        #logger.error "Error when trying to talk: #{e.message}"
       end
     end
   end
